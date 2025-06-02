@@ -5,6 +5,8 @@ import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const App = () => {
   const [cart, setCart] = useState([]);
